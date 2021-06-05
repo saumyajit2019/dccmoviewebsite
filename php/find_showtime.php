@@ -1,9 +1,15 @@
 <?php 
     session_start();
-    $servername = "127.0.0.1";
-    $username = "root";
-    $password = "";
-    $dbname = "complexdb";
+    //$servername = "127.0.0.1";
+    //$username = "root";
+    //$password = "";
+    //$dbname = "complexdb";
+
+    $servername = "remotemysql.com";
+    $username = "sIj83T3bfC";
+    $password = "OFjiyJSdhA";
+    $dbname = "sIj83T3bfC";
+
     $movie_title = $_POST["movie_chosen"];
     $date = $_POST["date_chosen"];
     $complex = $_POST["complex_chosen"];

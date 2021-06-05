@@ -1,9 +1,14 @@
 <?php 
     session_start();
-    $servername = "127.0.0.1";
-    $username = "root";
-    $password = "";
-    $dbname = "complexdb";
+    //$servername = "127.0.0.1";
+    //$username = "root";
+    //$password = "";
+    //$dbname = "complexdb";
+
+    $servername = "remotemysql.com";
+    $username = "sIj83T3bfC";
+    $password = "OFjiyJSdhA";
+    $dbname = "sIj83T3bfC";
     $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
     $link_exploded = explode("?", $actual_link);
     $movie = str_replace("%20", " ", $link_exploded[1]);

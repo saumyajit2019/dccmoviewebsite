@@ -1,9 +1,15 @@
 <?php
     session_start();
-    $servername = "localhost";
-    $username = "root";
-    $passworddb = "";
-    $dbname = "complexdb";
+    //$servername = "127.0.0.1";
+    //$username = "root";
+    //$password = "";
+    //$dbname = "complexdb";
+
+    $servername = "remotemysql.com";
+    $username = "sIj83T3bfC";
+    $password = "OFjiyJSdhA";
+    $dbname = "sIj83T3bfC";
+
     $email = $_SESSION["email"];
     $user_id = $_SESSION["user_id"];
     

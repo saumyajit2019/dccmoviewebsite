@@ -1,9 +1,14 @@
 <?php 
     session_start();
-    $servername = "127.0.0.1";
-    $username = "root";
-    $password = "";
-    $dbname = "complexdb";
+    //$servername = "127.0.0.1";
+    //$username = "root";
+    //$password = "";
+    //$dbname = "complexdb";
+
+    $servername = "remotemysql.com";
+    $username = "sIj83T3bfC";
+    $password = "OFjiyJSdhA";
+    $dbname = "sIj83T3bfC";
     $review = $_POST["review"]; 
     $member = $_SESSION["user_id"];
     $title = $_SESSION["movie"];
