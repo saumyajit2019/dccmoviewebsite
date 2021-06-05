@@ -25,7 +25,7 @@ $expiration = $_POST["cc_exp"];
 
 
 // Create connection
-$conn = new mysqli($servername, $username, $passworddb, $dbname);
+$conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

@@ -69,7 +69,7 @@
     $dbname = "sql5417363";
     
     // Create connection
-    $conn = new mysqli($servername, $username, $passworddb, $dbname);
+    $conn = new mysqli($servername, $username, $password, $dbname);
       
     // Check connection
     if ($conn->connect_error) {
