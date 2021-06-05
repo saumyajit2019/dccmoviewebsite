@@ -49,7 +49,7 @@ if ($result->num_rows > 0 and $user_id->num_rows >0) {
 	       header('Location: ../admin/admin.php'); 
         }
     } else {
-        header('Location: ../pages/index.html?loginInvalid');
+        header('Location: ../pages/index.php?loginInvalid');
     }
 }
 
