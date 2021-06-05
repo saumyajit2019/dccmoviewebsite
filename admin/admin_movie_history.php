@@ -124,10 +124,10 @@ session_start();
           <h4 class="h4"> Account Details </h4>
           <div class="row pl-3">
                <?php 
-    $servername = "127.0.0.1";
-    $username = "root";
-    $password = "";
-    $dbname = "complexdb";
+    $servername = "sql5.freemysqlhosting.net";
+    $username = "sql5417363";
+    $password = "iHGmEHhNRn";
+    $dbname = "sql5417363";
 
 
 
@@ -187,10 +187,10 @@ session_start();
               </thead>
               <tbody>
                   <?php 
-    $servername = "127.0.0.1";
-    $username = "root";
-    $password = "";
-    $dbname = "complexdb";
+    $servername = "sql5.freemysqlhosting.net";
+    $username = "sql5417363";
+    $password = "iHGmEHhNRn";
+    $dbname = "sql5417363";
 
 
 
@@ -240,10 +240,10 @@ session_start();
               </thead>
               <tbody>
        <?php 
-    $servername = "127.0.0.1";
-    $username = "root";
-    $password = "";
-    $dbname = "complexdb";
+    $servername = "sql5.freemysqlhosting.net";
+    $username = "sql5417363";
+    $password = "iHGmEHhNRn";
+    $dbname = "sql5417363";
 
 
 

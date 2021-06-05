@@ -1,9 +1,9 @@
 <?php
 session_start();
-$servername = "127.0.0.1";
-$username = "root";
-$password = "";
-$dbname = "complexdb";
+$servername = "sql5.freemysqlhosting.net";
+$username = "sql5417363";
+$password = "iHGmEHhNRn";
+$dbname = "sql5417363";
                       
 
 // Create connection

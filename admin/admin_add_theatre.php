@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$passworddb = "";
-$dbname = "complexdb";
+$servername = "sql5.freemysqlhosting.net";
+$username = "sql5417363";
+$password = "iHGmEHhNRn";
+$dbname = "sql5417363";
 
 $complex_name = $_POST["complex_chosen"]; 
 $screen_id = $_POST["screen_id"]; 

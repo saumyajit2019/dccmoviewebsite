@@ -3,10 +3,10 @@ session_start();
 
 $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 $sections_of_URL = explode("?", $actual_link);
-$servername = "127.0.0.1";
-$username = "root";
-$password = "";
-$dbname = "complexdb";
+$servername = "sql5.freemysqlhosting.net";
+$username = "sql5417363";
+$password = "iHGmEHhNRn";
+$dbname = "sql5417363";
 $start_time = $_POST["start_time$sections_of_URL[1]"];                      
 $complex = $_POST["complex$sections_of_URL[1]"];                      
 
