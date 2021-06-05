@@ -78,10 +78,10 @@
     //$password = "";
     //$dbname = "complexdb";
 
-    $servername = "remotemysql.com";
-    $username = "sIj83T3bfC";
-    $password = "OFjiyJSdhA";
-    $dbname = "sIj83T3bfC";
+    $servername = "sql5.freemysqlhosting.net";
+    $username = "sql5417363";
+    $password = "iHGmEHhNRn";
+    $dbname = "sql5417363";
     $user = $_SESSION["user_id"];
 
 
