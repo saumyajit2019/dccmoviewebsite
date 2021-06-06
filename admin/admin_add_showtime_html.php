@@ -5,7 +5,7 @@
     $dbname = "sql5417363";
     
     // Create connection
-    $conn = new mysqli($servername, $username, $passworddb, $dbname);
+    $conn = new mysqli($servername, $username, $password, $dbname);
       
     // Check connection
     if ($conn->connect_error) {
@@ -37,7 +37,7 @@
 
   <body>
      <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
-      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="../admin/admin.php">Tix4flix Admin</a>
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="../admin/admin.php">TeleMov Admin</a>
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
           <a class="nav-link" href="../pages/index.html">Sign out</a>
@@ -230,7 +230,7 @@
 
        <footer class="container">
       <div class="d-flex justify-content-center">
-      <p>&copy; Tix4flix 2017-2018</p>
+      <p>&copy; TeleMov/p>
     </div>
     </footer>
 

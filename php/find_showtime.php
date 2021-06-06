@@ -66,7 +66,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Home - Tix4flix</title>
+    <title>Home - TeleMov</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../bootstrap/css/bootstrap.min2.css" rel="stylesheet">
@@ -78,7 +78,7 @@
 
   <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="../php/home.php">Tix4flix</a>
+      <a class="navbar-brand" href="../php/home.php">TeleMov</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -181,7 +181,7 @@
     </main>
 
     <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">&copy; 2017-2018 Tix4Flix</p>
+        <p class="mb-1">&copy; TeleMov</p>
         <ul class="list-inline">
           <li class="list-inline-item"><a href="#">Privacy</a></li>
           <li class="list-inline-item"><a href="#">Terms</a></li>

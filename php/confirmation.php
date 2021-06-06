@@ -28,7 +28,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Confirmation - Tix4flix</title>
+    <title>Confirmation - TeleMov</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../bootstrap/css/bootstrap.min2.css" rel="stylesheet">
@@ -40,7 +40,7 @@
 
   <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="../php/home.php">Tix4flix</a>
+      <a class="navbar-brand" href="../php/home.php">TeleMov</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -156,7 +156,7 @@
 
     <footer class="container">
       <div class="d-flex justify-content-center">
-      <p>&copy; Tix4flix 2017-2018</p>
+      <p>&copy; TeleMov</p>
     </div>
     </footer>
 
