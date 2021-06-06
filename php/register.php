@@ -13,7 +13,7 @@ $fname = $_POST["fname"];
 $lname = $_POST["lname"]; 
 $email = $_POST["email"]; 
 $phonenumber = $_POST["phone_number"]; 
-$password1 =  $_POST["password"];
+$password1 =  $_POST["password1"];
 $confirmpassword = $_POST["password2"]; 
 $streetnumber = $_POST["street_number"]; 
 $streetname = $_POST["street_name"]; 
@@ -43,13 +43,12 @@ else {
 }
 
 
-$sql = "insert into User_Account (email, _password, fname, lname, street_name, street_num,
-postal_code, phone_number) values
-('$email','$password1','$fname', '$lname','$streetname',$streetnumber,'$postalcode', '$phonenumber');";
+$sql = "insert into User_Account (email, _password, fname, lname, street_name, street_num,postal_code, phone_number) values
+('$email','$password1','$fname','$lname','$streetname','$streetnumber','$postalcode','$phonenumber');";
 
 
 $sql .= "insert into Member (member_id, email, card_number, card_expiry) values
-($nextmemberid, '$email','$creditcardnumber','$expiration')";
+($nextmemberid, '$email','$creditcardnumber','$expiration');";
 
 
 
