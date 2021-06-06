@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    <!DOCTYPE html>
+
+
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Register to TeleMov</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../bootstrap/css/bootstrap.min2.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../custom_css/signin.css" rel="stylesheet">
+  </head>
+
+  <body class="text-center">
+      
+
+
+
+    <form class="form-signin" method="POST" action="../php/connection.php" >
+      <img class="mb-4" src="../photos/logo2.svg" alt="" width="220" height="220">
+      <h1 class="h3 mb-3 font-weight-normal">Please Register</h1>
+
+      <label for="fname" class="sr-only">FirstName</label>
+      <input Name=fname type="text" id="fname" class="form-control" placeholder="fname" autofocus>
+      <label for="lname" class="sr-only">LastName</label>
+      <input Name=lname type="text" id="lname" class="form-control" placeholder="lname" autofocus>
+      <label for="email" class="sr-only">Email address</label>
+      <input Name=email type="email" id="email" class="form-control" placeholder="email" autofocus>
+      <label for="password" class="sr-only">Password</label>
+      <input Name=password1 type="password" id="password1" class="form-control" placeholder="password">
+      <label for="password2" class="sr-only">Confirm Password</label>
+      <input Name=password2 type="password" id="password2" class="form-control" placeholder="password2">
+      <label for="phone_number" class="sr-only">Phone Number</label>
+      <input Name=phone_number type="text" id="phone_number" class="form-control" placeholder="phone_number" autofocus>
+      <label for="street_name" class="sr-only">Street Name</label>
+      <input Name=street_name type="text" id="street_name" class="form-control" placeholder="street_name" autofocus>
+      <label for="street_number" class="sr-only">Street Number</label>
+      <input Name=street_number type="text" id="street_number" class="form-control" placeholder="street_number" autofocus>
+      <label for="postal_code" class="sr-only">Postal Code</label>
+      <input Name=postal_code type="text" id="postal_code" class="form-control" placeholder="postal_code" autofocus>
+      <label for="cc_name" class="sr-only">CC Name</label>
+      <input Name=cc_name type="text" id="cc_name" class="form-control" placeholder="cc_name" autofocus>
+      <label for="cc_number" class="sr-only">CC Number</label>
+      <input Name=cc_number type="text" id="cc_number" class="form-control" placeholder="cc_number" autofocus>
+      <label for="cc_exp" class="sr-only">CC expiration</label>
+      <input Name=cc_exp type="text" id="cc_exp" class="form-control" placeholder="cc_exp" autofocus>
+
+      <button class="btn btn-lg btn-primary btn-block" type="submit" formaction="../php/register.php">Submit</button>
+      <p class="mt-5 mb-3 text-muted">&copy; TeleMov</p>
+    </form>
+    
+  </body>
+
+
+</html>
