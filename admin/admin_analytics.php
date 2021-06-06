@@ -68,40 +68,6 @@
                 </a>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="../admin/admin_add_movie.html">
-                  <span data-feather="layers"></span>
-                  Add a Movie
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="../admin/admin_add_complex.html">
-                  <span data-feather="layers"></span>
-                  Add a Complex
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="../admin/admin_add_theatre_html.php">
-                  <span data-feather="layers"></span>
-                  Add a Theatre
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="../admin/admin_add_showtime_html.php">
-                  <span data-feather="layers"></span>
-                  Add a Showtime
-                </a>
-              </li>
-                
-              <li class="nav-item">
-                <a class="nav-link" href="../admin/admin_add_supplier.html">
-                  <span data-feather="layers"></span>
-                  Add a Supplier
-                </a>
-              </li>
 
               <li class="nav-item">
                 <a class="nav-link" href="../admin/admin_analytics.php">
@@ -110,26 +76,7 @@
                 </a>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="../admin/admin_edit_complex_html.php">
-                  <span data-feather="bar-chart-2"></span>
-                  Edit Complex
-                </a>
-              </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="../admin/admin_edit_theatre_html.php">
-                  <span data-feather="bar-chart-2"></span>
-                  Edit Theatre
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="../admin/edit_showtimes.php">
-                  <span data-feather="bar-chart-2"></span>
-                  Edit Showing
-                </a>
-              </li>
 
             </ul> 
           </div>

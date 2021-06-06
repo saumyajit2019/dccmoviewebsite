@@ -46,26 +46,6 @@
                 </a>
               </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="../admin/admin_add_movie.html">
-                  <span data-feather="layers"></span>
-                  Add a Movie
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="../admin/admin_add_theatre_html.php">
-                  <span data-feather="layers"></span>
-                  Add a Theatre
-                </a>
-              </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="../admin/admin_add_showtime_html.php">
-                  <span data-feather="layers"></span>
-                  Add a Showtime
-                </a>
-              </li>
                 
 
               <li class="nav-item">
