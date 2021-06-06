@@ -157,7 +157,7 @@
         // Update Price dynamically
         $(document).ready(function() {
             $("#tickets_number").change(function() {
-                $('#price').html("INR" +
+                $('#price').html("INR " +
                 $(this).val() * 12 + ".00");
             }).change();
         });
