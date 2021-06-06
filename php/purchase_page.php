@@ -158,7 +158,7 @@
         $(document).ready(function() {
             $("#tickets_number").change(function() {
                 $('#price').html("INR " +
-                $(this).val() * 12 + ".00");
+                $(this).val() * 120 + ".00");
             }).change();
         });
     </script>
