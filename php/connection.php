@@ -15,7 +15,7 @@ $recemail = $_POST["email"];
 $recpass = $_POST["password"];
 $_SESSION["email"] = $recemail;
 $_SESSION['current_date'] = date("Y-m-d", $today);
-//echo $_SESSION['current_date'];
+echo $_SESSION['current_date'];
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
