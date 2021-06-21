@@ -1,8 +1,8 @@
 <?php
 $servername = "sql6.freemysqlhosting.net";
-$username = "sql6420440";
-$password = "2nACQE9ElP";
-$dbname = "sql6420440";
+$username = "sql6420459";
+$password = "WEmetzRCe2";
+$dbname = "sql6420459";
 
 $complex_name = $_POST["complex_name"]; 
 $phone_num = $_POST["phone_num"]; 

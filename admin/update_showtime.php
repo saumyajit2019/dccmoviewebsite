@@ -4,9 +4,9 @@ session_start();
 $actual_link = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 $sections_of_URL = explode("?", $actual_link);
 $servername = "sql6.freemysqlhosting.net";
-$username = "sql6420440";
-$password = "2nACQE9ElP";
-$dbname = "sql6420440";
+$username = "sql6420459";
+$password = "WEmetzRCe2";
+$dbname = "sql6420459";
 $start_time = $_POST["start_time$sections_of_URL[1]"];                      
 $complex = $_POST["complex$sections_of_URL[1]"];                      
 

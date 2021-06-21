@@ -6,9 +6,9 @@ session_start();
 //$dbname = "complexdb";
 
 $servername = "sql6.freemysqlhosting.net";
-$username = "sql6420440";
-$password = "2nACQE9ElP";
-$dbname = "sql6420440";
+$username = "sql6420459";
+$password = "WEmetzRCe2";
+$dbname = "sql6420459";
 
 $today = strtotime("Yesterday"); //???? Why won't it work for today
 $recemail = $_POST["email"];                      
