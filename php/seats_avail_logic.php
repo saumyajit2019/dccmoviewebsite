@@ -5,10 +5,10 @@ session_start();
 //$password = "";
 //$dbname = "complexdb";
 
-$servername = "sql5.freemysqlhosting.net";
-$username = "sql5417363";
-$password = "iHGmEHhNRn";
-$dbname = "sql5417363";
+$servername = "sql6.freemysqlhosting.net";
+$username = "sql6420440";
+$password = "2nACQE9ElP";
+$dbname = "sql6420440";
 $_SESSION['num_tickets'] = $_POST['num_tickets'];
 // echo $_SESSION['num_tickets'];
 

@@ -5,10 +5,10 @@
     //$password = "";
     //$dbname = "complexdb";
 
-    $servername = "sql5.freemysqlhosting.net";
-    $username = "sql5417363";
-    $password = "iHGmEHhNRn";
-    $dbname = "sql5417363";
+    $servername = "sql6.freemysqlhosting.net";
+    $username = "sql6420440";
+    $password = "2nACQE9ElP";
+    $dbname = "sql6420440";
 
     $email = $_SESSION["email"];
     $user_id = $_SESSION["user_id"];

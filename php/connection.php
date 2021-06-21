@@ -5,10 +5,10 @@ session_start();
 //$password = "";
 //$dbname = "complexdb";
 
-$servername = "remotemysql.com";
-$username = "sIj83T3bfC";
-$password = "OFjiyJSdhA";
-$dbname = "sIj83T3bfC";
+$servername = "sql6.freemysqlhosting.net";
+$username = "sql6420440";
+$password = "2nACQE9ElP";
+$dbname = "sql6420440";
 
 $today = strtotime("Yesterday"); //???? Why won't it work for today
 $recemail = $_POST["email"];                      

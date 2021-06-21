@@ -1,8 +1,8 @@
 <?php
-$servername = "sql5.freemysqlhosting.net";
-$username = "sql5417363";
-$password = "iHGmEHhNRn";
-$dbname = "sql5417363";
+$servername = "sql6.freemysqlhosting.net";
+$username = "sql6420440";
+$password = "2nACQE9ElP";
+$dbname = "sql6420440";
 
 $title = $_POST["title"]; 
 $synopsis = $_POST["synopsis"]; 
