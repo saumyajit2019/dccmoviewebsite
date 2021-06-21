@@ -7,7 +7,7 @@ session_start();
 
 $servername = "sql6.freemysqlhosting.net";
 $username = "sql6420440";
-$password = "2nACQE9EIP";
+$password = "2nACQE9ElP";
 $dbname = "sql6420440";
 
 $today = strtotime("Yesterday"); //???? Why won't it work for today
