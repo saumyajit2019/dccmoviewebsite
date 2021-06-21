@@ -5,7 +5,7 @@
     //$password = "";
     //$dbname = "complexdb";
 
-    $servername = "sql6.freemysqlhosting.net";
+    $servername = "sql6.freemysqlhosting.net:3306";
     $username = "sql6420440";
     $password = "2nACQE9ElP";
     $dbname = "sql6420440";
